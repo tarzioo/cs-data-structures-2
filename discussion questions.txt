@@ -1,15 +1,27 @@
 Part 1: Discussion Questions
 
-1. Recursion is
+RECURSION
+
+1. Recursion is a function calling itself until it hits the base case. This allows for a more simplified code rather than the possibility of nested for loops.
+
+2. Or you will get stuck in an infinite recursion nightmare. 
+
+GRAPHS
+
+1. A graph is similar to a tree but a child can have more that one parent and it's not one directional. It can loop back up.
+
+3. Maps. There isn't always one solid route, and routes can loop backa and go in many possible ways.
+
+
 
 
 
 
 Fill in the runtimes for the following actions for the table below:
 
-Data Structure  Index   Search  Add-R   Add-L   Pop-L   Pop-R
+Data Structure      Index   Search  Add-R   Add-L   Pop-L   Pop-R
 Python List (Array) O(1)    O(n)    O(1)             
-Linked List                      
+Linked List         O             
 Doubly-Linked List                       
 Queue (as Array)    X   X       X       X
 Queue (as LL or DLL)    X   X       X       X
@@ -24,5 +36,22 @@ Deque (as DLL)  X   X
 Data Structure          Get     Add     Delete      Iterate     Memory
 Dictionary (Hash Map)   O(1)    O(1)    O(1)        O(n)        medium
 Set (Hash Map)          O(1)    O(1)    O(1)        O(n)        medium
-Binary Search Tree      O(logn) O(logn) O(logn)     O(1)     medium      
-Tree                    O(n)    O(n)    O(n)        O(1)        medium              
+Binary Search Tree      O(logn) O(logn) O(logn)     O(1)        medium      
+Tree                    O(n)    O(n)    O(n)        O(1)        medium 
+
+
+
+SORTING
+
+1.  Bubble sort is a loop within a loop. It has a runtime of O(n^2). It repetitively compares one item in the list to the next and swaps if they are out of order. The highest value slowly bubbles to the end by being compared one by one to the item next to it. Once the highest has reached then end, then the second highest swaps its way to the end and then the third highest get its turn and so on until the end.  
+
+2.  Merge sort used 2 presorted lists and compares the index of 0 against the index of the other and places the lowest one on a new list by popping off the lowest value from list 1 or list 2. Once both list 1 and list 2 are completely empty, then it is finished and the result list now contains the both list1 and list 2 in sorted order
+
+3.  quick sort splits the list in two and continues splitting recursively until it is at a single element in length.  once the base case has been reach for both halfs, it can call upon merge sort and pass in both of it's now sorted split lists to return one single list that is ordered.
+
+GIT BRANCHING
+
+
+1.  Git branching is great for when one or more people are working on a project. You can create your progress on your own individual branch and once you have completed your goal/task/process, you can merge it back to the master branch.
+
+2.  When you want to submit changes from your cloned work on a repository, you submit a pull request for your changes to be reviewed and hopefully accepted.          
