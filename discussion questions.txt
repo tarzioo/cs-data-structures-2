@@ -1,0 +1,28 @@
+Part 1: Discussion Questions
+
+1. Recursion is
+
+
+
+
+Fill in the runtimes for the following actions for the table below:
+
+Data Structure  Index   Search  Add-R   Add-L   Pop-L   Pop-R
+Python List (Array) O(1)    O(n)    O(1)             
+Linked List                      
+Doubly-Linked List                       
+Queue (as Array)    X   X       X       X
+Queue (as LL or DLL)    X   X       X       X
+Stack (as Array, LL, or DLL)    X   X       X   X    
+Deque (as DLL)  X   X                
+
+
+
+
+
+
+Data Structure          Get     Add     Delete      Iterate     Memory
+Dictionary (Hash Map)   O(1)    O(1)    O(1)        O(n)        medium
+Set (Hash Map)          O(1)    O(1)    O(1)        O(n)        medium
+Binary Search Tree      O(logn) O(logn) O(logn)     O(1)     medium      
+Tree                    O(n)    O(n)    O(n)        O(1)        medium              
